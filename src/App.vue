@@ -4,8 +4,8 @@
 </script>
 
 <template>
-    <!--BtnMatcha01 /-->
-    <BtnMatcha02 />
+    <BtnMatcha01 />
+    <!--BtnMatcha02 /-->
 </template>
 
 <style scoped>
