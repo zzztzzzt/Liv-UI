@@ -19,29 +19,12 @@ export function useHeroAnimation() {
       const tl = gsap.timeline();
 
       tl.fromTo(strips, 
-        { 
-          opacity: 0, 
-          x: (i) => (i < 3 ? -30 : 30),
-          scaleX: 0 
-        },
-        { 
-          opacity: 1, 
-          x: 0, 
-          scaleX: 1, 
-          stagger: 0.15,
-          duration: 1.5,
-          ease: 'power4.out',
-        }
+        { opacity: 0, x: (i) => (i < 3 ? -30 : 30), scaleX: 0 },
+        { opacity: 1, x: 0, scaleX: 1, stagger: 0.15, duration: 1.5, ease: 'power4.out' }
       )
       .fromTo(button, 
         { opacity: 0, scale: 0.9, filter: 'blur(10px)' },
-        { 
-          opacity: 1, 
-          scale: 1, 
-          filter: 'blur(0px)',
-          duration: 1.2, 
-          ease: 'expo.out' 
-        }, 
+        { opacity: 1, scale: 1, filter: 'blur(0px)', duration: 1.2, ease: 'expo.out' }, 
         "-=0.8" // start animation early
       );
 
@@ -67,20 +50,8 @@ export function useHeroAnimation() {
 
       // Interaction
       const onEnter = () => {
-        gsap.to(button, {
-          scale: 1.05,
-          boxShadow: '0 0 30px rgba(127,255,229,0.3)',
-          duration: 0.6,
-          ease: 'power3.out'
-        });
-
-        gsap.to(strips, {
-          scale: 1.1,
-          filter: 'brightness(1.1) saturate(1.2)',
-          duration: 0.8,
-          stagger: 0.05,
-          ease: 'power2.out'
-        });
+        gsap.to(button, { scale: 1.05, boxShadow: '0 0 30px rgba(127,255,229,0.3)', duration: 0.6 });
+        gsap.to(strips, { scale: 1.1, filter: 'brightness(1.1) saturate(1.2)', duration: 0.8, stagger: 0.05 });
       };
 
       const onLeave = () => {
@@ -90,10 +61,13 @@ export function useHeroAnimation() {
 
       button.addEventListener('mouseenter', onEnter);
       button.addEventListener('mouseleave', onLeave);
+
     }, container);
   };
 
-  const cleanup = () => ctx && ctx.revert();
+  const cleanup = () => {
+    if (ctx) ctx.revert();
+  };
 
   return { initAnimations, cleanup, STRIP_DATA };
 }
