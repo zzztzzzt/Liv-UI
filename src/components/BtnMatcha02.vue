@@ -37,7 +37,3 @@ onUnmounted(() => cleanup());
         </div>
     </div>
 </template>
-    
-<style scoped>
-
-</style>
