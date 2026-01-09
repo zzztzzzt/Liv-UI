@@ -9,6 +9,7 @@ IMPORTANT : This project is still in the development and testing stages, licensi
 Liv.ui uses Vue3, Tailwind CSS component rendering. Vue3, Tailwind CSS licensed under the MIT License.
 
 Vue3 License : [https://github.com/vuejs/core/blob/main/LICENSE](https://github.com/vuejs/core/blob/main/LICENSE)
+<br>
 Tailwind CSS License : [https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE](https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE)
 
 Liv.ui uses GSAP for animation. GSAP licensed under their Standard License.
