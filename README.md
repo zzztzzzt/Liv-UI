@@ -6,6 +6,11 @@
 
 IMPORTANT : This project is still in the development and testing stages, licensing terms may be updated in the future. Please don't do any commercial usage currently.
 
+![Vue3](https://img.shields.io/badge/vue3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![GSAP](https://img.shields.io/badge/gsap-0AE448?style=for-the-badge&logo=gsap&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/tailwind_css-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![vite](https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
 Liv.ui uses Vue3, Tailwind CSS for component rendering. Vue3, Tailwind CSS licensed under the MIT License.
 
 Vue3 License : [https://github.com/vuejs/core/blob/main/LICENSE](https://github.com/vuejs/core/blob/main/LICENSE)
