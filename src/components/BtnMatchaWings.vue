@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue';
-import { useStackAnimation } from './scripts/BtnMatcha01';
+import { useStackAnimation } from './scripts/BtnMatchaWings';
 
 const containerRef = ref<HTMLElement | null>(null);
 const topBarRef = ref<HTMLElement | null>(null);

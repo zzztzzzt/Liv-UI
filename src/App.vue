@@ -1,17 +1,17 @@
 <script setup lang="ts">
-    import BtnMatcha01 from './components/BtnMatcha01.vue';
-    import BtnMatcha02 from './components/BtnMatcha02.vue';
-    import BtnMatcha03 from './components/BtnMatcha03.vue';
-    import InputMatcha01 from './components/InputMatcha01.vue';
-    import InputMatcha02 from './components/InputMatcha02.vue';
+    import BtnMatchaWings from './components/BtnMatchaWings.vue';
+    import BtnMatchaCoconut from './components/BtnMatchaCoconut.vue';
+    import BtnMatchaBasic from './components/BtnMatchaBasic.vue';
+    import InputMatchaBasic from './components/InputMatchaBasic.vue';
+    import InputMatchaCloud from './components/InputMatchaCloud.vue';
 </script>
 
 <template>
-    <!--BtnMatcha01 /-->
-    <!--BtnMatcha02 /-->
-    <!--BtnMatcha03 /-->
-    <!--InputMatcha01 /-->
-    <InputMatcha02 />
+    <!--BtnMatchaWings /-->
+    <!--BtnMatchaCoconut /-->
+    <!--BtnMatchaBasic /-->
+    <!--InputMatchaBasic /-->
+    <!--InputMatchaCloud /-->
 </template>
 
 <style scoped>

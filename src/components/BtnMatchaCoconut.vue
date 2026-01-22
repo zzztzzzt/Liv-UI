@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue';
-import { useHeroAnimation } from './scripts/BtnMatcha02';
+import { useHeroAnimation } from './scripts/BtnMatchaCoconut';
 
 const containerRef = ref<HTMLElement | null>(null);
 const buttonRef = ref<HTMLElement | null>(null);
