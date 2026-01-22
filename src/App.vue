@@ -4,6 +4,7 @@
     import BtnMatchaBasic from './components/BtnMatchaBasic.vue';
     import InputMatchaBasic from './components/InputMatchaBasic.vue';
     import InputMatchaCloud from './components/InputMatchaCloud.vue';
+    import InputMatchaTech from './components/InputMatchaTech.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@
     <!--BtnMatchaBasic /-->
     <!--InputMatchaBasic /-->
     <!--InputMatchaCloud /-->
+    <InputMatchaTech />
 </template>
 
 <style scoped>
