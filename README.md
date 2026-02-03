@@ -1,4 +1,4 @@
-# Liv UI
+# Liv-UI
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/zzztzzzt/Liv.ui.svg)
 [![CodeQL Advanced](https://github.com/zzztzzzt/Liv.ui/actions/workflows/codeql.yml/badge.svg)](https://github.com/zzztzzzt/Liv.ui/actions/workflows/codeql.yml)
@@ -8,7 +8,7 @@
 <br>
 <img src="https://github.com/zzztzzzt/Liv.ui/blob/main/logo/logo.png" alt="liv-ui-logo" style="height: 280px; width: auto;" />
 
-### Liv.ui is a Component Library with built-in Motion Effects for Vue3.
+### Liv-UI is a Component Library with built-in Motion Effects for Vue3.
 
 IMPORTANT : This project is still in the development and testing stages, licensing terms may be updated in the future. Please don't do any commercial usage currently.
 
@@ -17,7 +17,7 @@ IMPORTANT : This project is still in the development and testing stages, licensi
 ![Tailwind CSS](https://img.shields.io/badge/tailwind_css-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![vite](https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-Liv.ui uses Vue3, Tailwind CSS for component rendering. And uses Vite as build tool. Vue3, Tailwind CSS & Vite licensed under the MIT License.
+Liv-UI uses Vue3, Tailwind CSS for component rendering. And uses Vite as build tool. Vue3, Tailwind CSS & Vite licensed under the MIT License.
 
 Vue3 License : [https://github.com/vuejs/core/blob/main/LICENSE](https://github.com/vuejs/core/blob/main/LICENSE)
 <br>
@@ -25,7 +25,7 @@ Tailwind CSS License : [https://github.com/tailwindlabs/tailwindcss/blob/main/LI
 <br>
 Vite License : [https://github.com/vitejs/vite/blob/main/LICENSE](https://github.com/vitejs/vite/blob/main/LICENSE)
 
-Liv.ui uses GSAP for component animation. GSAP licensed under their Standard License.
+Liv-UI uses GSAP for component animation. GSAP licensed under their Standard License.
 
 GSAP License : [https://gsap.com/community/standard-license/](https://gsap.com/community/standard-license/)
 <br>
