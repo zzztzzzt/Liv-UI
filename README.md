@@ -6,11 +6,16 @@
 [![Lyra](https://img.shields.io/badge/Designed_with-Lyra-FFC6EC?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjEzMDAiIHZpZXdCb3g9IjAgMCA4MDAgMTMwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iNzUiIHk9Ijc1IiB3aWR0aD0iNjUwIiBoZWlnaHQ9IjExNTAiIHN0cm9rZT0idXJsKCNwYWludDBfbGluZWFyXzIxNjVfNykiIHN0cm9rZS13aWR0aD0iMTUwIi8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMjE2NV83IiB4MT0iNDAwIiB5MT0iMCIgeDI9IjQwMCIgeTI9IjEzMDAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iI0JCRkZFRCIvPgo8c3RvcCBvZmZzZXQ9IjAuNjk3MTE1IiBzdG9wLWNvbG9yPSIjRkZFQ0Y0Ii8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+)](https://github.com/zzztzzzt/Lyra-AI)
 
 <br>
+
 <img src="https://github.com/zzztzzzt/Liv.ui/blob/main/logo/logo.png" alt="liv-ui-logo" style="height: 280px; width: auto;" />
 
 ### Liv-UI is a Component Library with built-in Motion Effects for Vue3.
 
 IMPORTANT : This project is still in the development and testing stages, licensing terms may be updated in the future. Please don't do any commercial usage currently.
+
+![1.0showcase-1](https://github.com/zzztzzzt/Liv.ui/blob/main/showcase/liv-1.0-components.webp)
+
+## Project Dependencies Details
 
 ![Vue3](https://img.shields.io/badge/vue3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![GSAP](https://img.shields.io/badge/gsap-0AE448?style=for-the-badge&logo=gsap&logoColor=white)
@@ -29,5 +34,3 @@ Liv-UI uses GSAP for component animation. GSAP licensed under their Standard Lic
 
 GSAP License : [https://gsap.com/community/standard-license/](https://gsap.com/community/standard-license/)
 <br>
-
-![1.0showcase-1](https://github.com/zzztzzzt/Liv.ui/blob/main/showcase/liv-1.0-components.webp)
