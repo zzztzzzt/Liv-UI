@@ -28,29 +28,9 @@ export function useHeroAnimation() {
         "-=0.8" // start animation early
       );
 
-      // Rhythmic Idle
-      strips.forEach((el, i) => {
-        gsap.to(el, {
-          y: '+=10',
-          duration: 2.5,
-          repeat: -1,
-          yoyo: true,
-          ease: 'sine.inOut',
-          delay: i * 0.2,
-        });
-      });
-
-      gsap.to(button, {
-        y: '+=8',
-        duration: 2.5,
-        repeat: -1,
-        yoyo: true,
-        ease: 'sine.inOut',
-      });
-
       // Interaction
       const onEnter = () => {
-        gsap.to(button, { scale: 1.05, boxShadow: '0 0 30px rgba(127,255,229,0.3)', duration: 0.6 });
+        gsap.to(button, { boxShadow: '0 0 30px rgba(127,255,229,0.3)', duration: 0.6 });
         gsap.to(strips, { scale: 1.1, filter: 'brightness(1.1) saturate(1.2)', duration: 0.8, stagger: 0.05 });
       };
 

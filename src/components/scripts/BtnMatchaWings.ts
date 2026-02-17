@@ -34,24 +34,6 @@ export function useStackAnimation() {
         "-=0.8"
       );
 
-      // Rhythmic Idle
-      gsap.to(topBar, {
-        y: -6,
-        duration: 2.2,
-        repeat: -1,
-        yoyo: true,
-        ease: 'sine.inOut'
-      });
-
-      gsap.to(bottomBar, {
-        y: 6,
-        duration: 2.2,
-        repeat: -1,
-        yoyo: true,
-        ease: 'sine.inOut',
-        delay: 0.4
-      });
-
       // Interaction
       const onEnter = () => {
         gsap.to(topBar, {
