@@ -13,9 +13,7 @@
 
 IMPORTANT : This project is still in the development and testing stages, licensing terms may be updated in the future. Please don't do any commercial usage currently.
 
-![1.0showcase-1](https://github.com/zzztzzzt/Liv.ui/blob/main/showcase/liv-1.0-components.webp)
-
-## Project Dependencies Details
+## Project Dependencies Guide
 
 ![Vue3](https://img.shields.io/badge/vue3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![GSAP](https://img.shields.io/badge/gsap-0AE448?style=for-the-badge&logo=gsap&logoColor=white)
@@ -24,13 +22,19 @@ IMPORTANT : This project is still in the development and testing stages, licensi
 
 Liv-UI uses Vue3, Tailwind CSS for component rendering. And uses Vite as build tool. Vue3, Tailwind CSS & Vite licensed under the MIT License.
 
-Vue3 License : [https://github.com/vuejs/core/blob/main/LICENSE](https://github.com/vuejs/core/blob/main/LICENSE)
-<br>
-Tailwind CSS License : [https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE](https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE)
-<br>
-Vite License : [https://github.com/vitejs/vite/blob/main/LICENSE](https://github.com/vitejs/vite/blob/main/LICENSE)
-
 Liv-UI uses GSAP for component animation. GSAP licensed under their Standard License.
 
-GSAP License : [https://gsap.com/community/standard-license/](https://gsap.com/community/standard-license/)
+![1.0showcase-1](https://github.com/zzztzzzt/Liv.ui/blob/main/showcase/liv-1.0-components.webp)
+
+## Project Dependencies Details
+
+Vue3 License : [https://github.com/vuejs/core/blob/main/LICENSE](https://github.com/vuejs/core/blob/main/LICENSE)
 <br>
+
+Tailwind CSS License : [https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE](https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE)
+<br>
+
+Vite License : [https://github.com/vitejs/vite/blob/main/LICENSE](https://github.com/vitejs/vite/blob/main/LICENSE)
+<br>
+
+GSAP License : [https://gsap.com/community/standard-license/](https://gsap.com/community/standard-license/)
