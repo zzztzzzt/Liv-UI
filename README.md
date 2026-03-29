@@ -9,7 +9,7 @@
 
 <img src="https://github.com/zzztzzzt/Liv.ui/blob/main/logo/logo.png" alt="liv-ui-logo" style="height: 280px; width: auto;" />
 
-### Liv-UI is a Component Library with built-in Motion Effects for Vue3.
+### Liv-UI - Vue3 Component Library with built-in Motion Effects.
 
 IMPORTANT : This project is still in the development and testing stages, licensing terms may be updated in the future. Please don't do any commercial usage currently.
 
