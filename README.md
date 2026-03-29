@@ -24,7 +24,11 @@ Liv-UI uses Vue3, Tailwind CSS for component rendering. And uses Vite as build t
 
 Liv-UI uses GSAP for component animation. GSAP licensed under their Standard License.
 
-![1.0showcase-1](https://github.com/zzztzzzt/Liv.ui/blob/main/showcase/liv-1.0-components.webp)
+![1.1showcase](https://github.com/zzztzzzt/Liv.ui/blob/main/showcase/liv-1.1-components.webp)
+
+**( Old Version )**
+
+![1.0showcase](https://github.com/zzztzzzt/Liv.ui/blob/main/showcase/liv-1.0-components.webp)
 
 ## Project Dependencies Details
 
